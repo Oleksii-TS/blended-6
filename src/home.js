@@ -57,7 +57,7 @@ refs.categoriesList.addEventListener('click', async (event) => {
   }
 });
 
-// 4. Реалізуй делегування на списку ul.products
+// 4. Реалізуй делегування на списку ul.products.
 
 refs.productsList.addEventListener('click', async (e) => {
   const productItem = e.target.closest('.products__item');
